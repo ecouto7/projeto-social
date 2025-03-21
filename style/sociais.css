@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    display: block;
+    padding: 20px;
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.insta, a.x {
+    background-color: black;
+    color: white;
+}
+
+a.face {
+    background-color: darkblue;
+}
+
+a.github {
+    background-color: white;
+    color: black;
+}
